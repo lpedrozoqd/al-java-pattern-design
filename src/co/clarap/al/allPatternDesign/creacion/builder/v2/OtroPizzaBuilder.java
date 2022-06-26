@@ -1,6 +1,6 @@
 package co.clarap.al.allPatternDesign.creacion.builder.v2;
 
-import co.clarap.al.allPatternDesign.creacion.builder.Pizza;
+import co.clarap.al.allPatternDesign.creacion.builder.v1.Pizza;
 
 /*
  * 2da. opción para el abstract-builder quizá más trasparente para su uso
