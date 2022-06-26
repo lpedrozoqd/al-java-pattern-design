@@ -9,14 +9,15 @@ public class AutomovilGasolina  extends Automovil{
 
     @Override
     public void mostrarCaracteristicas() {
-        salida.append("Automovil gasolina modelo");
+        salida.append("Automovil gasolina modelo: ");
         salida.append(model);
-        salida.append("de color");
+        salida.append("\nde color: ");
         salida.append(color);
-        salida.append("de potencia");
+        salida.append("\nde potencia:");
         salida.append(potencia);
-        salida.append("de espacio");
+        salida.append("\nde espacio: ");
         salida.append(espacio);
+        System.out.println("\n==>Datos de auto: \n" + salida);
         
     }
     
